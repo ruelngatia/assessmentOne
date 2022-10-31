@@ -65,6 +65,8 @@ const ph = new pharmacist('the pharmacist')
 const cashier = new Cashier('the Cashier')
 
 mr.collectCash()
+mr.returnCash()
+mr.writePrescription()
 ph.writePrescription()
 cashier.returnCash()
 mr.manage()
